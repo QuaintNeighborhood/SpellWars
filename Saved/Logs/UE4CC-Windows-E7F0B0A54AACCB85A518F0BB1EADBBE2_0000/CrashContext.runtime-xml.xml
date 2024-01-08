@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-E7F0B0A54AACCB85A518F0BB1EADBBE2_0000</CrashGUID>
+<ProcessId>6364</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<IsEnsure>0</IsEnsure>
+<SecondsSinceStart>196</SecondsSinceStart>
+<GameName>UE4-SpellWars</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.12.5-3039270+++UE4+Release-4.12</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Epic Games/4.12/</RootDir>
+<MachineId>C9CE40DB479C292BD40A5CB1BFA6071E</MachineId>
+<EpicAccountId>a6a8692ea067464998730799dd328237</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage></ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-1603 v3 @ 2.80GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17100599296</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<BuildIntegrityStatus>0</BuildIntegrityStatus>
+</PlatformProperties>
+</FGenericCrashContext>

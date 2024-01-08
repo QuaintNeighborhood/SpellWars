@@ -1,0 +1,1024 @@
+﻿Log file open, 12/06/16 09:24:56
+LogInit:Display: Running engine for game: SpellWars
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-636327566) SRandInit(-636327565).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.524904
+LeapPluginLog: Using LeapPlugin version 2.0.0
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.7.0(build = 270909) feature version = 0. Client runs version (prod = 1).1.7.0(build = 270909) feature version = 0
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.06-14.24.57:891][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-14.24.57:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.06-14.24.57:926][  0]LogInit: Computer: 1398-P2C4-1373
+[2016.12.06-14.24.57:927][  0]LogInit: User: keeh
+[2016.12.06-14.24.57:927][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.06-14.24.57:927][  0]LogInit: High frequency timer resolution =2.728095 MHz
+[2016.12.06-14.24.57:927][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.06-14.24.57:927][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.06-14.24.57:927][  0]LogMemory: Process Physical Memory: 196.29 MB used, 196.29 MB peak
+[2016.12.06-14.24.57:927][  0]LogMemory: Process Virtual Memory: 199.31 MB used, 199.31 MB peak
+[2016.12.06-14.24.57:927][  0]LogMemory: Physical Memory: 4648.36 MB used, 16308.40 MB total
+[2016.12.06-14.24.57:927][  0]LogMemory: Virtual Memory: 601.81 MB used, 8388608.00 MB total
+[2016.12.06-14.24.58:279][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.06-14.24.58:822][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.06-14.24.58:847][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.12.06-14.24.58:847][  0]LogD3D11RHI:       4007/0/7898 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.06-14.24.58:847][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.06-14.24.58:854][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.06-14.24.58:855][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.06-14.24.58:855][  0]LogWindows: EnumDisplayDevices:
+[2016.12.06-14.24.58:856][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.12.06-14.24.58:857][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.06-14.24.58:857][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.06-14.24.58:858][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.06-14.24.58:858][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.12.06-14.24.58:858][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.12.06-14.24.58:859][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.12.06-14.24.58:859][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.12.06-14.24.58:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.12.06-14.24.58:859][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.12.06-14.24.58:859][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.12.06-14.24.58:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.06-14.24.58:868][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.06-14.24.58:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.06-14.24.58:913][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (H:/SpellWars/Intermediate/Shaders/WorkingDirectory/6076/).
+[2016.12.06-14.24.58:913][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/keeh/AppData/Local/Temp/UnrealShaderWorkingDir/A3A051F8488EE5197A67CBA873F423CE/'.
+[2016.12.06-14.24.58:913][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.06-14.25.06:281][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.06-14.25.06:292][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.06-14.25.06:302][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.06-14.25.06:312][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.06-14.25.06:321][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.06-14.25.06:334][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.06-14.25.06:343][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.06-14.25.06:353][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.06-14.25.06:362][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.06-14.25.06:372][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.06-14.25.06:381][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.06-14.25.06:402][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.06-14.25.06:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.06-14.25.06:402][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.06-14.25.06:460][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.06-14.25.06:469][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.06-14.25.06:478][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.06-14.25.06:488][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.06-14.25.06:500][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.06-14.25.06:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.06-14.25.06:902][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.06-14.25.06:902][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2016.12.06-14.25.06:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/SpellWars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.06-14.25.06:902][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.06-14.25.06:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/SpellWars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.06-14.25.06:903][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.06-14.25.06:930][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.06-14.25.06:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/keeh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.06-14.25.10:613][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-14.25.10:623][  0]LogTexture:Display: Building textures: S_Actor (BGRA8)
+[2016.12.06-14.25.10:628][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.06-14.25.10:640][  0]LogTexture:Display: Building textures: S_LevelSequence (BGRA8)
+[2016.12.06-14.25.10:785][  0]LogTexture:Display: Building textures: DefaultTexture (DXT1)
+[2016.12.06-14.25.10:811][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_M (AutoDXT)
+[2016.12.06-14.25.11:193][  0]LogTexture:Display: Building textures: T_Default_Material_Grid_N (BC5)
+[2016.12.06-14.25.11:341][  0]LogTexture:Display: Building textures: DefaultDiffuse (AutoDXT)
+[2016.12.06-14.25.13:166][  0]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2016.12.06-14.25.13:253][  0]LogTexture:Display: Building textures: AICON-Red (AutoDXT)
+[2016.12.06-14.25.13:265][  0]LogTexture:Display: Building textures: AICON-Green (AutoDXT)
+[2016.12.06-14.25.13:413][  0]LogTexture:Display: Building textures: S_Emitter (BGRA8)
+[2016.12.06-14.25.13:445][  0]LogTexture:Display: Building textures: Bad (BGRA8)
+[2016.12.06-14.25.13:470][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.06-14.25.13:470][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.06-14.25.13:470][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.06-14.25.13:546][  0]LogTexture:Display: Building textures: Default (BGRA8)
+[2016.12.06-14.25.13:558][  0]LogTexture:Display: Building textures: VR-Basic (BGRA8)
+[2016.12.06-14.25.13:575][  0]ImportText (StagingDirectory): Missing closing parenthesis: (Path=
+[2016.12.06-14.25.13:575][  0]LogObj:Error: LoadConfig (/Script/UnrealEd.Default__ProjectPackagingSettings): import failed for StagingDirectory in: (Path=
+[2016.12.06-14.25.13:614][  0]LogTexture:Display: Building textures: Grid (AutoDXT)
+[2016.12.06-14.25.13:686][  0]LogTexture:Display: Building textures: DaylightAmbientCubemap (RGBA16F)
+[2016.12.06-14.25.21:473][  0]LogTexture:Display: Building textures: PSysThumbnail_NoImage (AutoDXT)
+[2016.12.06-14.25.21:506][  0]LogTexture:Display: Building textures: PSysThumbnail_OOD (AutoDXT)
+[2016.12.06-14.25.21:542][  0]LogTexture:Display: Building textures: S_DecalActorIcon (AutoDXT)
+[2016.12.06-14.25.21:692][  0]LogTexture:Display: Building textures: S_Terrain (BGRA8)
+[2016.12.06-14.25.21:809][  0]LogTexture:Display: Building textures: MatineeCam_D (AutoDXT)
+[2016.12.06-14.25.21:930][  0]LogTexture:Display: Building textures: flipbook (AutoDXT)
+[2016.12.06-14.25.22:049][  0]LogTexture:Display: Building textures: T_EditorHelp (AutoDXT)
+[2016.12.06-14.25.23:651][  0]LogTexture:Display: Building textures: S_ExpoHeightFog (BGRA8)
+[2016.12.06-14.25.23:669][  0]LogTexture:Display: Building textures: S_NavP (BGRA8)
+[2016.12.06-14.25.23:686][  0]LogTexture:Display: Building textures: S_Player (BGRA8)
+[2016.12.06-14.25.23:702][  0]LogTexture:Display: Building textures: SkyLight (BGRA8)
+[2016.12.06-14.25.23:718][  0]LogTexture:Display: Building textures: S_WindDirectional (AutoDXT)
+[2016.12.06-14.25.23:824][  0]LogTexture:Display: Building textures: S_LightDirectional (BGRA8)
+[2016.12.06-14.25.23:839][  0]LogTexture:Display: Building textures: S_LightDirectionalMove (BGRA8)
+[2016.12.06-14.25.23:855][  0]LogTexture:Display: Building textures: S_LightPoint (BGRA8)
+[2016.12.06-14.25.23:870][  0]LogTexture:Display: Building textures: S_LightPointMove (BGRA8)
+[2016.12.06-14.25.23:889][  0]LogTexture:Display: Building textures: S_LightSpot (BGRA8)
+[2016.12.06-14.25.23:909][  0]LogTexture:Display: Building textures: S_LightSpotMove (BGRA8)
+[2016.12.06-14.25.23:925][  0]LogTexture:Display: Building textures: S_PortalActorIcon2 (AutoDXT)
+[2016.12.06-14.25.23:967][  0]LogTexture:Display: Building textures: MatInstActSprite (BGRA8)
+[2016.12.06-14.25.23:977][  0]LogTexture:Display: Building textures: SceneManager (BGRA8)
+[2016.12.06-14.25.23:996][  0]LogTexture:Display: Building textures: S_NavLink (AutoDXT)
+[2016.12.06-14.25.24:023][  0]LogTexture:Display: Building textures: S_Note (BGRA8)
+[2016.12.06-14.25.24:063][  0]LogTexture:Display: Building textures: S_ReflActorIcon (AutoDXT)
+[2016.12.06-14.25.24:119][  0]LogTexture:Display: Building textures: S_Thruster (BGRA8)
+[2016.12.06-14.25.24:136][  0]LogTexture:Display: Building textures: S_RadForce (BGRA8)
+[2016.12.06-14.25.24:151][  0]LogTexture:Display: Building textures: TargetIcon (BGRA8)
+[2016.12.06-14.25.24:174][  0]LogTexture:Display: Building textures: RobotoDistanceField_PageA (G8)
+[2016.12.06-14.25.24:196][  0]LogTexture:Display: Building textures: S_TextRenderActorIcon (AutoDXT)
+[2016.12.06-14.25.24:222][  0]LogTexture:Display: Building textures: S_Trigger (BGRA8)
+[2016.12.06-14.25.24:239][  0]LogTexture:Display: Building textures: S_VectorFieldVol (BGRA8)
+[2016.12.06-14.25.24:253][  0]LogTexture:Display: Building textures: GradientTexture0 (BGRA8)
+[2016.12.06-14.25.24:261][  0]LogTexture:Display: Building textures: Black (AutoDXT)
+[2016.12.06-14.25.24:273][  0]LogTexture:Display: Building textures: MAT_Groups_Float (AutoDXT)
+[2016.12.06-14.25.24:278][  0]LogTexture:Display: Building textures: MAT_Groups_Director (AutoDXT)
+[2016.12.06-14.25.24:284][  0]LogTexture:Display: Building textures: MAT_Groups_Event (AutoDXT)
+[2016.12.06-14.25.24:290][  0]LogTexture:Display: Building textures: MAT_Groups_Anim (AutoDXT)
+[2016.12.06-14.25.24:295][  0]LogTexture:Display: Building textures: MAT_Groups_Fade (AutoDXT)
+[2016.12.06-14.25.24:299][  0]LogTexture:Display: Building textures: MAT_Groups_Move (AutoDXT)
+[2016.12.06-14.25.24:304][  0]LogTexture:Display: Building textures: MAT_Groups_Slomo (AutoDXT)
+[2016.12.06-14.25.24:309][  0]LogTexture:Display: Building textures: MAT_ColorTrack (AutoDXT)
+[2016.12.06-14.25.24:314][  0]LogTexture:Display: Building textures: MAT_Groups_Toggle (AutoDXT)
+[2016.12.06-14.25.24:320][  0]LogTexture:Display: Building textures: MAT_Groups_AudioMaster (AutoDXT)
+[2016.12.06-14.25.24:325][  0]LogTexture:Display: Building textures: MAT_Groups_Sound (AutoDXT)
+[2016.12.06-14.25.24:329][  0]LogTexture:Display: Building textures: MAT_Groups_Vector (AutoDXT)
+[2016.12.06-14.25.24:333][  0]LogTexture:Display: Building textures: MAT_Groups_Visibility (AutoDXT)
+[2016.12.06-14.25.24:342][  0]LogTexture:Display: Building textures: DefaultTextureCube (DXT1)
+[2016.12.06-14.25.25:112][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
+[2016.12.06-14.25.25:254][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.136235 seconds
+[2016.12.06-14.25.25:261][  0]LogUObjectArray: 29424 objects as part of root set at end of initial load.
+[2016.12.06-14.25.25:261][  0]LogUObjectAllocator: 5972744 out of 0 bytes used by permanent object pool.
+[2016.12.06-14.25.25:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.06-14.25.25:268][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.06-14.25.25:765][  0]LogTexture:Display: Building textures: S_FTest (AutoDXT)
+[2016.12.06-14.25.25:911][  0]LogTexture:Display: Building textures: VR_LaserPower_01 (AutoDXT)
+[2016.12.06-14.25.26:282][  0]LogTexture:Display: Building textures: GizmoText_RobotoDistanceField_PageA (G8)
+[2016.12.06-14.25.26:360][  0]LogTexture:Display: Building textures: UE4_Logo (AutoDXT)
+[2016.12.06-14.25.26:601][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-14.25.26:601][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-14.25.28:951][  0]LogTexture:Display: Building textures: DummySpriteTexture (AutoDXT)
+[2016.12.06-14.25.28:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.06-14.25.28:999][  0]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.25.29:232][  0]LogTexture:Display: Building textures: MiniFont (AutoDXT)
+[2016.12.06-14.25.29:435][  0]SourceControl: Info Source control is disabled
+[2016.12.06-14.25.29:489][  0]SourceControl: Info Source control is disabled
+[2016.12.06-14.25.29:503][  0]SourceControl: Info Source control is disabled
+[2016.12.06-14.25.29:512][  0]SourceControl: Info Source control is disabled
+[2016.12.06-14.25.29:664][  0]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.25.29:762][  0]LogEngine: Initializing Engine...
+[2016.12.06-14.25.29:795][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.06-14.25.29:795][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.06-14.25.29:797][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.7.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.12.06-14.25.29:857][  0]LogTexture:Display: Building textures: DefaultWhiteGrid (AutoDXT)
+[2016.12.06-14.25.29:976][  0]LogTexture:Display: Building textures: InvalidLightmapSettings (AutoDXT)
+[2016.12.06-14.25.30:033][  0]LogTexture:Display: Building textures: HeatmapGradient (BGRA8)
+[2016.12.06-14.25.30:045][  0]LogTexture:Display: Building textures: PreviewShadowIndicator (BGRA8)
+[2016.12.06-14.25.30:072][  0]LogTexture:Display: Building textures: BSPVertex (AutoDXT)
+[2016.12.06-14.25.30:074][  0]LogTexture:Display: Building textures: Good64x64TilingNoiseHighFreq (G8)
+[2016.12.06-14.25.30:075][  0]LogTexture:Display: Building textures: DefaultBokeh (BGRA8)
+[2016.12.06-14.25.30:078][  0]LogTexture:Display: Building textures: PreintegratedSkinBRDF (BGRA8)
+[2016.12.06-14.25.30:084][  0]LogTexture:Display: Building textures: WeightMapPlaceholderTexture (BGRA8)
+[2016.12.06-14.25.30:137][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.06-14.25.30:159][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-14.25.30:242][  0]LogInit: FAudioDevice initialized.
+[2016.12.06-14.25.30:268][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/keeh/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.06-14.25.30:278][  0]LogInit: Texture streaming: Enabled
+[2016.12.06-14.25.30:320][  0]LogInit: Transaction tracking system initialized
+[2016.12.06-14.25.30:396][  0]BlueprintLog: New page: Editor Load
+[2016.12.06-14.25.30:609][  0]LocalizationService: Info Localization service is disabled
+[2016.12.06-14.25.30:756][  0]LogConsoleResponse:Display: 
+[2016.12.06-14.25.30:795][  0]LogTexture:Display: Building textures: Cross (AutoDXT)
+[2016.12.06-14.25.30:829][  0]LogTexture:Display: Building textures: Tick (AutoDXT)
+[2016.12.06-14.25.30:837][  0]LogTexture:Display: Building textures: WidgetGridVertexColorMaterial (AutoDXT)
+[2016.12.06-14.25.30:901][  0]LogTexture:Display: Building textures: CASC_None (AutoDXT)
+[2016.12.06-14.25.30:902][  0]LogTexture:Display: Building textures: CASC_Cross (AutoDXT)
+[2016.12.06-14.25.30:910][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2016.12.06-14.25.30:920][  0]LogTexture:Display: Building textures: S_KBSJoint (BGRA8)
+[2016.12.06-14.25.30:924][  0]LogTexture:Display: Building textures: S_KHinge (BGRA8)
+[2016.12.06-14.25.30:927][  0]LogTexture:Display: Building textures: S_KPrismatic (BGRA8)
+[2016.12.06-14.25.30:932][  0]LogTexture:Display: Building textures: S_LightError (BGRA8)
+[2016.12.06-14.25.30:939][  0]LogTexture:Display: Building textures: T_Loft_Spline (AutoDXT)
+[2016.12.06-14.25.31:012][  0]LogTexture:Display: Building textures: DefaultNormal (BC5)
+[2016.12.06-14.25.31:217][  0]LogTexture:Display: Building textures: Grid_N (BC5)
+[2016.12.06-14.25.31:293][  0]LogTexture:Display: Building textures: PaperDiffuse (AutoDXT)
+[2016.12.06-14.25.31:618][  0]LogTexture:Display: Building textures: PaperNormal (BC5)
+[2016.12.06-14.25.31:665][  0]LogTexture:Display: Building textures: Texture2D_28 (AutoDXT)
+[2016.12.06-14.25.31:676][  0]LogTexture:Display: Building textures: Texture2D_29 (AutoDXT)
+[2016.12.06-14.25.31:682][  0]LogTexture:Display: Building textures: StreamingPauseIcon (AutoDXT)
+[2016.12.06-14.25.31:704][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.12.06-14.25.31:704][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.06-14.25.31:793][  0]LogTexture:Display: Building textures: Countdown (AutoDXT)
+[2016.12.06-14.25.31:801][  0]LogTexture:Display: Building textures: RecordingIndicator (AutoDXT)
+[2016.12.06-14.25.31:874][  0]LogTexture:Display: Building textures: DefaultAlphaTexture (BGRA8)
+[2016.12.06-14.25.31:907][  0]SourceControl: Info Source control is disabled
+[2016.12.06-14.25.31:916][  0]LogFileCache: Scanning file cache for directory 'H:/SpellWars/Content/' took 0.22s
+[2016.12.06-14.25.31:916][  0]Cmd: MAP LOAD FILE="H:/SpellWars/Content/Lessons/Physics/HW5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-14.25.31:927][  0]LightingResults: New page: Lighting Build
+[2016.12.06-14.25.31:940][  0]MapCheck: New page: Map Check
+[2016.12.06-14.25.31:940][  0]LightingResults: New page: Lighting Build
+[2016.12.06-14.25.32:491][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:491][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:491][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:491][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:491][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:514][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_1.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:514][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_1.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:514][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_1.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:514][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:514][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_1.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:534][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_2.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:534][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_2.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:534][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_2.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:534][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_2.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.32:534][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EdGraph_2.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.36:291][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2016.12.06-14.25.36:504][  0]LogPackageName: SearchForPackageOnDisk took   0.213s, but failed to resolve FX_Meshes.
+[2016.12.06-14.25.36:504][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2016.12.06-14.25.36:770][  0]LogTexture:Display: Building textures: T_Sky_Clouds_M (BGRA8)
+[2016.12.06-14.25.37:094][  0]LogTexture:Display: Building textures: T_Sky_Stars (AutoDXT)
+[2016.12.06-14.25.37:460][  0]LogTexture:Display: Building textures: T_Sky_Blue (AutoDXT)
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:223][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:224][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:225][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Kachujin/Anims/MixamoAnimBP_Kachujin.MixamoAnimBP_Kachujin:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.12.06-14.25.39:264][  0]LogTexture:Display: Building textures: FirstPersonCrosshair (AutoDXT)
+[2016.12.06-14.25.39:270][  0]LogStaticMesh: Building static mesh SM_DoorLock...
+[2016.12.06-14.25.39:289][  0]LogStaticMesh: Built static mesh [0.02s] /Game/DemoRoom/Meshes/SM_DoorLock.SM_DoorLock
+[2016.12.06-14.25.39:470][  0]LogTexture:Display: Building textures: T_Pattern_M (AutoDXT)
+[2016.12.06-14.25.40:420][  0]LogMaterial: Missing cached shader map for material M_GlasDoor, compiling. 
+[2016.12.06-14.25.40:470][  0]LogTexture:Display: Building textures: T_EV_FogSheet_Falloff_02 (AutoDXT)
+[2016.12.06-14.25.40:548][  0]LogMaterial: Missing cached shader map for material M_Particle_Ribbon, compiling. 
+[2016.12.06-14.25.40:578][  0]LogTexture:Display: Building textures: T_raindrop_splash_NRM (BC5)
+[2016.12.06-14.25.40:592][  0]LogTexture:Display: Building textures: T_raindrop_splash (AutoDXT)
+[2016.12.06-14.25.40:654][  0]LogTexture:Display: Building textures: T_Caustics (AutoDXT)
+[2016.12.06-14.25.40:804][  0]LogTexture:Display: Building textures: T_Cubemap_01 (AutoDXT)
+[2016.12.06-14.25.43:238][  0]LogMaterial: Missing cached shader map for material M_raindrop_splash, compiling. 
+[2016.12.06-14.25.43:270][  0]LogTexture:Display: Building textures: T_raindrop (AutoDXT)
+[2016.12.06-14.25.43:656][  0]LogTexture:Display: Building textures: TilingNoise06_N (BC5)
+[2016.12.06-14.25.44:455][  0]LogTexture:Display: Building textures: T_raindrop_normal (BC5)
+[2016.12.06-14.25.44:469][  0]LogMaterial: Missing cached shader map for material M_raindrop, compiling. 
+[2016.12.06-14.25.44:632][  0]LogTexture:Display: Building textures: T_Fire_subUV_01 (AutoDXT)
+[2016.12.06-14.25.45:202][  0]LogTexture:Display: Building textures: T_Fire_tile (AutoDXT)
+[2016.12.06-14.25.45:609][  0]LogMaterial: Missing cached shader map for material M_Fire, compiling. 
+[2016.12.06-14.25.45:625][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.12.06-14.25.45:800][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Walk.Walk
+[2016.12.06-14.25.46:540][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Run.Run
+[2016.12.06-14.25.46:573][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Idle.Idle
+[2016.12.06-14.25.46:733][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_Loop.Jump_Loop
+[2016.12.06-14.25.46:774][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_Start.Jump_Start
+[2016.12.06-14.25.46:811][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_End.Jump_End
+[2016.12.06-14.25.46:961][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_Walk.Kachujin_G_Rosales_Walk
+[2016.12.06-14.25.47:023][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_Run.Kachujin_G_Rosales_Run
+[2016.12.06-14.25.47:066][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_idle.Kachujin_G_Rosales_idle
+[2016.12.06-14.25.47:336][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_Sword_Swing.Kachujin_G_Rosales_Sword_Swing
+[2016.12.06-14.25.47:432][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_Running_Jump.Kachujin_G_Rosales_Running_Jump
+[2016.12.06-14.25.48:320][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Kachujin/Anims/Kachujin_G_Rosales_jump.Kachujin_G_Rosales_jump
+[2016.12.06-14.25.48:531][  0]LogTexture:Display: Building textures: T_IB_Debris_Box (AutoDXT)
+[2016.12.06-14.25.49:564][  0]LogTexture:Display: Building textures: T_IB_Debris_Box_E (AutoDXT)
+[2016.12.06-14.25.51:300][  0]LogTexture:Display: Building textures: T_FrozenGround_N (BC5)
+[2016.12.06-14.25.51:433][  0]LogTexture:Display: Building textures: T_FrozenGround (AutoDXT)
+[2016.12.06-14.25.51:844][  0]LogTexture:Display: Building textures: Icon128 (AutoDXT)
+[2016.12.06-14.25.51:936][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.12.06-14.25.52:027][  0]LogTexture:Display: Building textures: T_UE4_Logo_M (AutoDXT)
+[2016.12.06-14.25.52:243][  0]LogMaterial: Missing cached shader map for material M_UE4_Logo_Doors, compiling. 
+[2016.12.06-14.25.52:300][  0]LogStaticMesh: Building static mesh SM_Door...
+[2016.12.06-14.25.52:305][  0]LogStaticMesh: Built static mesh [0.01s] /Game/DemoRoom/Meshes/SM_Door.SM_Door
+[2016.12.06-14.25.52:489][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.12.06-14.25.52:982][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.12.06-14.25.53:040][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.12.06-14.25.53:165][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.12.06-14.25.53:799][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.12.06-14.25.54:149][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.12.06-14.25.54:185][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.12.06-14.25.54:268][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.12.06-14.25.54:617][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.12.06-14.25.54:840][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.12.06-14.25.54:876][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.12.06-14.25.54:890][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.12.06-14.25.55:097][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.12.06-14.25.55:244][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.12.06-14.25.55:250][  0]LogStaticMesh: Building static mesh SM_Spacer_500x500...
+[2016.12.06-14.25.55:345][  0]LogStaticMesh: Built static mesh [0.09s] /Game/Meshes/InteriorArchVis/Architecture/Spacers/SM_Spacer_500x500.SM_Spacer_500x500
+[2016.12.06-14.25.55:348][  0]LogMaterial: Missing cached shader map for material M_DemoWall, compiling. 
+[2016.12.06-14.25.55:421][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.12.06-14.25.55:655][  0]LogMaterial: Missing cached shader map for material LeapPassthroughPostProcess, compiling. 
+[2016.12.06-14.25.55:748][  0]LogStaticMesh: Building static mesh SM_FireBlastMesh_Twist_01...
+[2016.12.06-14.25.56:179][  0]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.12.06-14.25.56:200][  0]LogStaticMesh: Built static mesh [0.45s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_FireBlastMesh_Twist_01.SM_FireBlastMesh_Twist_01
+[2016.12.06-14.25.56:204][  0]LogStaticMesh: Building static mesh SM_DeathPlane_01...
+[2016.12.06-14.25.56:205][  0]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.12.06-14.25.56:207][  0]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_DeathPlane_01.SM_DeathPlane_01
+[2016.12.06-14.25.56:307][  0]LogTexture:Display: Building textures: T_SmokeBall_01_8_8 (AutoDXT)
+[2016.12.06-14.25.57:628][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2016.12.06-14.25.57:643][  0]LogTexture:Display: Building textures: T_FireBlastTile (AutoDXT)
+[2016.12.06-14.25.57:774][  0]LogMaterial: Missing cached shader map for material LeapImageHandMaterial, compiling. 
+[2016.12.06-14.25.58:514][  0]LogTexture:Display: Building textures: Kachujin_normal (BC5)
+[2016.12.06-14.25.59:626][  0]LogTexture:Display: Building textures: Kachujin_Mask (AutoDXT)
+[2016.12.06-14.26.07:255][  0]LogTexture:Display: Building textures: Kachujin_diffuse (AutoDXT)
+[2016.12.06-14.26.13:859][  0]LogMaterial: Missing cached shader map for material Kachujin_Mat, compiling. 
+[2016.12.06-14.26.13:932][  0]LogMaterial: Missing cached shader map for material hand_mat, compiling. 
+[2016.12.06-14.26.13:960][  0]LogTexture:Display: Building textures: T_Black_32 (AutoDXT)
+[2016.12.06-14.26.13:962][  0]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.12.06-14.26.13:975][  0]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.12.06-14.26.14:180][  0]LogTexture:Display: Building textures: T_Tile_Noise_Tendril_01 (AutoDXT)
+[2016.12.06-14.26.15:551][  0]LogMaterial: Missing cached shader map for material M_DeathPlane_01, compiling. 
+[2016.12.06-14.26.15:564][  0]LogMaterial: Missing cached shader map for material M_IceBlastBase, compiling. 
+[2016.12.06-14.26.15:606][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.12.06-14.26.16:491][  0]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2016.12.06-14.26.16:688][  0]LogTexture:Display: Building textures: T_explo_SubUV (AutoDXT)
+[2016.12.06-14.26.18:908][  0]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2016.12.06-14.26.18:931][  0]LogTexture:Display: Building textures: T_Effects_Burst (AutoDXT)
+[2016.12.06-14.26.19:080][  0]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2016.12.06-14.26.19:121][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.12.06-14.26.19:279][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fireball+3...
+[2016.12.06-14.26.23:127][  0]LogTexture:Display: Building textures: ExampleBackground (AutoDXT)
+[2016.12.06-14.26.25:939][  0]LogTexture:Display: Building textures: T_RoomTiles_N (BC5)
+[2016.12.06-14.26.26:591][  0]LogTexture:Display: Building textures: T_RoomTiles_M (DXT1)
+[2016.12.06-14.26.27:364][  0]LogMaterial: Missing cached shader map for material M_DemoRoomTiles, compiling. 
+[2016.12.06-14.26.27:403][  0]LogMaterial: Missing cached shader map for material M_IB_Debris_Boxes_Trans, compiling. 
+[2016.12.06-14.26.27:676][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave C21_FX_-_Ancient_Evil__Epic_Dramatic_Orchestral_...
+[2016.12.06-14.26.32:352][  0]LogAIModule: Creating AISystem for world HW5
+[2016.12.06-14.26.33:106][  0]LogTexture:Display: Building textures: EmptyActor (BGRA8)
+[2016.12.06-14.26.33:769][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2016.12.06-14.26.34:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-14.26.34:067][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-14.26.34:199][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.766ms to complete.
+[2016.12.06-14.26.34:199][  0]LogFileHelpers: Loading map 'HW5' took 62.285
+[2016.12.06-14.26.36:014][  0]LogCollectionManager: Loaded 1 collections in 0.015681 seconds
+[2016.12.06-14.26.38:223][  0]LogFileCache: Scanning file cache for directory 'H:/SpellWars/Saved/Collections/' took 0.01s
+[2016.12.06-14.26.38:223][  0]LogFileCache: Scanning file cache for directory 'H:/SpellWars/Content/Developers/keeh/Collections/' took 0.01s
+[2016.12.06-14.26.38:223][  0]LogFileCache: Scanning file cache for directory 'H:/SpellWars/Content/Collections/' took 0.01s
+[2016.12.06-14.26.38:223][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2016.12.06-14.26.38:224][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2016.12.06-14.26.38:236][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2074 classes and 373 folders.
+[2016.12.06-14.26.38:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.06-14.26.38:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.06-14.26.38:247][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.12.06-14.26.38:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.06-14.26.40:625][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2016.12.06-14.26.40:636][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.12.06-14.26.41:392][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.06-14.26.42:161][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2016.12.06-14.26.42:162][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.12.06-14.26.42:164][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.12.06-14.26.42:165][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.12.06-14.26.42:166][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2016.12.06-14.26.42:167][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2016.12.06-14.26.42:453][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.12.06-14.26.42:453][  0]LogLoad: Full Startup: 108.23 seconds (BP compile: 1.41 seconds)
+[2016.12.06-14.26.42:453][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.06-14.26.42:453][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.06-14.26.42:464][  0]LogOcInput: OculusInput pre-init called
+[2016.12.06-14.26.42:477][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.7.0
+[2016.12.06-14.26.42:499][  0]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Saved/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.42:499][  0]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/Developers/keeh/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.42:499][  0]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.42:503][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.06-14.26.42:550][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.12.06-14.26.42:646][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.12.06-14.26.42:760][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.12.06-14.26.43:371][  1]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Saved/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.43:371][  1]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/Developers/keeh/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.43:371][  1]LogDirectoryWatcher: A directory notification failed for 'H:/SpellWars/Content/Collections/' because it was aborted or there was a buffer overflow.
+[2016.12.06-14.26.43:959][  2]LogAssetRegistry: Asset discovery search completed in 78.8637 seconds
+[2016.12.06-14.26.43:959][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000005 seconds (found 0 objects)
+[2016.12.06-14.26.43:959][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000024 seconds (updated 0 objects)
+[2016.12.06-14.26.58:136][143]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2016.12.06-14.26.58:136][143]LogSynthBenchmark:Display: ===============
+[2016.12.06-14.26.58:136][143]LogSynthBenchmark:Display: Main Processor:
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:          ... 0.024529 s/Run 'RayIntersect'
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:          ... 0.026570 s/Run 'Fractal'
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display: 
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   CPU Perf Index 0: 104.4 (weight 1.00)
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   CPU Perf Index 1: 107.6 (weight 1.50)
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:  
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display: Graphics:
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 970'
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   Device Id: 0x13c2
+[2016.12.06-14.26.58:392][143]LogSynthBenchmark:Display:   GPU Memory: 4008/0/7899 MB
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:          ... 0.566 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:          ... 0.455 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:          ... 0.388 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:          ... 1.193 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2016.12.06-14.26.58:419][143]LogSynthBenchmark:Display:          ... 0.094 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU second test: 0.11s
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 1.034 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.797 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.727 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 4.202 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.108 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 1.034 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.797 GigaPix/s, Confidence=100% 'TexHeavy'
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.727 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 4.202 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... 0.108 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display: 
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU Perf Index 0: 22.5 (weight 1.00)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU Perf Index 1: 10.7 (weight 0.10)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU Perf Index 2: 18.9 (weight 0.10)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU Perf Index 3: 16.5 (weight 3.00)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPU Perf Index 4: 10.1 (weight 1.00)
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   CPUIndex: 106.3
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:   GPUIndex: 16.4
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display: 
+[2016.12.06-14.26.58:548][143]LogSynthBenchmark:Display:          ... Total Time: 0.411945 sec
+[2016.12.06-14.26.58:569][143]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2016.12.06-14.29.04:666][990]LogMaterial: Missing cached shader map for material M_EmissiveText, compiling. 
+[2016.12.06-14.29.04:736][990]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2016.12.06-14.32.46:996][963]LogEditorTransaction: Undo Add Widget
+[2016.12.06-14.32.52:542][365]LogEditorTransaction: Undo Add Widget
+[2016.12.06-14.35.01:523][ 81]LogEditorTransaction: Undo Add Widget
+[2016.12.06-14.37.00:973][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 0.184
+[2016.12.06-14.37.00:977][196]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu/Player_HUD] ([1] browsable assets)...
+[2016.12.06-14.37.00:977][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu/Player_HUD]
+[2016.12.06-14.37.00:977][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/Player_HUD" FILE="H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-14.37.01:038][196]LogSavePackage: Save=54.29ms
+[2016.12.06-14.37.01:038][196]LogSavePackage: Moving 'H:/SpellWars/Saved/Player_HUD_Auto19B22DC0F41F636096DD8CCBFC7BB88E8.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto1.uasset'
+[2016.12.06-14.37.01:045][196]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto1.uasset
+[2016.12.06-14.37.01:045][196]LogFileHelpers: Auto-saving content packages took 0.071
+[2016.12.06-14.47.01:789][671]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 0.028
+[2016.12.06-14.47.01:793][671]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu/Player_HUD] ([1] browsable assets)...
+[2016.12.06-14.47.01:793][671]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu/Player_HUD]
+[2016.12.06-14.47.01:793][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/Player_HUD" FILE="H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-14.47.01:861][671]LogSavePackage: Save=58.39ms
+[2016.12.06-14.47.01:861][671]LogSavePackage: Moving 'H:/SpellWars/Saved/Player_HUD_Auto2648AB12E457D3730D18E45A6800DB75D.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto2.uasset'
+[2016.12.06-14.47.01:868][671]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/MainMenu/Player_HUD_Auto2.uasset
+[2016.12.06-14.47.01:868][671]LogFileHelpers: Auto-saving content packages took 0.078
+[2016.12.06-15.07.23:918][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/Player_HUD" FILE="H:/SpellWars/Content/MainMenu/Player_HUD.uasset" SILENT=true
+[2016.12.06-15.07.24:200][111]LogSavePackage: Save=56.92ms
+[2016.12.06-15.07.24:200][111]LogSavePackage: Moving 'H:/SpellWars/Saved/Player_HUDB1873F894D91AAF2479D0BA73686EAD6.tmp' to 'H:/SpellWars/Content/MainMenu/Player_HUD.uasset'
+[2016.12.06-15.07.24:214][111]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Content/MainMenu/Player_HUD.uasset
+[2016.12.06-15.07.29:570][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.07.30:759][506]LogSavePackage: Save=997.84ms
+[2016.12.06-15.07.30:759][506]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5C92DC1F5465B526017A4BD836A8479CA.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.07.30:806][506]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.07.30:817][506]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.07.33:875][869]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(70096ll)
+[2016.12.06-15.14.23:000][305]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(70096ll)
+[2016.12.06-15.14.27:406][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.14.29:307][608]LogSavePackage: Save=1649.82ms
+[2016.12.06-15.14.29:307][608]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5A802828D4F5BA622DD5698A8AE31420A.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.14.29:322][608]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.14.29:328][608]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.14.30:050][693]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.17.17:509][693]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart3)
+[2016.12.06-15.17.21:097][ 54]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.17.21:820][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spacer_500x504)
+[2016.12.06-15.17.22:603][189]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2016.12.06-15.17.29:059][678]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.17.29:090][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.17.30:347][678]LogSavePackage: Save=1126.43ms
+[2016.12.06-15.17.30:349][678]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW513E267134EDC539427DA7ABE2016FC96.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.17.30:363][678]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.17.30:369][678]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.17.31:070][760]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.17.58:504][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-15.17.59:532][963]LogSavePackage: Save=888.37ms
+[2016.12.06-15.17.59:532][963]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5_Auto385D51C24413D158AB3A0D4AC4DA9AC75.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto3.umap'
+[2016.12.06-15.17.59:538][963]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto3.umap
+[2016.12.06-15.17.59:544][963]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 1.069
+[2016.12.06-15.17.59:544][963]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.069
+[2016.12.06-15.25.21:730][543]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.25.21:761][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.25.23:210][543]LogSavePackage: Save=1219.60ms
+[2016.12.06-15.25.23:210][543]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5CAC465E844EBB395D39D6682C45BB1BC.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.25.23:224][543]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.25.23:230][543]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.25.23:940][626]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.28.00:036][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-15.28.01:309][215]LogSavePackage: Save=1131.84ms
+[2016.12.06-15.28.01:309][215]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5_Auto4C48F307E4196EB6966919B996BE30581.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto4.umap'
+[2016.12.06-15.28.01:316][215]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto4.umap
+[2016.12.06-15.28.01:321][215]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 1.316
+[2016.12.06-15.28.01:321][215]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.316
+[2016.12.06-15.28.50:834][525]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.28.54:449][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.28.55:427][899]LogSavePackage: Save=853.89ms
+[2016.12.06-15.28.55:427][899]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW587ED074A4F7F179CA70CE38FE6A17DB9.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.28.55:443][899]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.28.55:448][899]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.28.56:152][981]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.38.01:926][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-15.38.03:347][741]LogSavePackage: Save=1180.19ms
+[2016.12.06-15.38.03:347][741]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5_Auto585DBDCF145894375CE734EBDC1C8B627.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto5.umap'
+[2016.12.06-15.38.03:354][741]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto5.umap
+[2016.12.06-15.38.03:357][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 1.463
+[2016.12.06-15.38.03:357][741]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.463
+[2016.12.06-15.42.41:057][735]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.42.41:086][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.42.42:134][735]LogSavePackage: Save=918.40ms
+[2016.12.06-15.42.42:134][735]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW526F6202042A77FAAFE1B1FA53EC30619.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.42.42:149][735]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.42.42:154][735]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.42.42:872][818]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.43.25:129][242]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.43.30:966][842]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.43.35:686][360]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.02:201][604]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.12.06-15.45.10:004][451]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.11:965][632]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.14:332][841]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.23:849][952]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.25:971][169]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.33:546][ 76]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.34:820][224]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.39:132][662]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.41:601][905]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.51:704][111]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.45.52:795][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Content/Lessons/Physics/HW5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.06-15.45.54:247][219]LogSavePackage: Save=1197.57ms
+[2016.12.06-15.45.54:247][219]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5F70D6E7B4808759D749523A98D390582.tmp' to 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'
+[2016.12.06-15.45.54:250][219]LogFileManager:Warning: DeleteFile was unable to delete 'H:/SpellWars/Content/Lessons/Physics/HW5.umap', retrying in .5s...
+[2016.12.06-15.45.54:750][219]LogFileManager:Error: Error deleting file 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'.
+[2016.12.06-15.45.54:750][219]LogSavePackage:Error: Error saving 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'
+[2016.12.06-15.45.54:756][219]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Content/Lessons/Physics/HW5.umap
+[2016.12.06-15.45.54:759][219]EditorErrors: New page: Save Output
+[2016.12.06-15.45.54:759][219]EditorErrors:Warning: Warning Error saving 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'
+[2016.12.06-15.45.54:767][219]LogFileHelpers: Saving map 'HW5' took 2.108
+[2016.12.06-15.46.54:652][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Content/Lessons/Physics/HW5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.06-15.46.55:879][905]LogSavePackage: Save=1074.45ms
+[2016.12.06-15.46.55:879][905]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5D5F1A684409E0609701D78B9B676ACA3.tmp' to 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'
+[2016.12.06-15.46.55:895][905]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Content/Lessons/Physics/HW5.umap
+[2016.12.06-15.46.55:925][905]LogFileHelpers: Saving map 'HW5' took 1.409
+[2016.12.06-15.47.00:336][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.47.01:811][385]LogSavePackage: Save=1353.74ms
+[2016.12.06-15.47.01:811][385]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5340ECBC84407EA4BDF75DB8233935277.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.47.01:826][385]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.47.01:830][385]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.47.02:559][470]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.53.15:620][561]LogEditorViewport: Clicking on Actor (LMB): BP_Double_Doors_C (BP_Double_Doors)
+[2016.12.06-15.53.16:478][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spacer_500x500)
+[2016.12.06-15.53.17:114][730]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart3)
+[2016.12.06-15.53.19:967][999]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.53.24:039][390]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.53.26:377][608]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.53.26:406][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.53.27:842][608]LogSavePackage: Save=1076.88ms
+[2016.12.06-15.53.27:842][608]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW519CF402144FFCE1D84601385C32DF793.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.53.27:856][608]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.53.27:861][608]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.53.28:586][684]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.53.29:741][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Lessons/Physics/HW5.HW5:PersistentLevel' has LevelScriptBlueprint '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5' with GeneratedClass '/Game/Lessons/Physics/HW5.HW5_C' with ClassGeneratedBy '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5'
+[2016.12.06-15.53.29:741][805]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.12.06-15.53.29:742][805]LogPlayLevel: [PlayLevel] Compiling Player_HUD before play...
+[2016.12.06-15.53.29:828][805]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.53.29:828][805]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2016.12.06-15.53.29:850][805]LogApp: UseVRFocus has changed to 1
+[2016.12.06-15.53.29:850][805]LogApp: HasVRFocus has changed to 1
+[2016.12.06-15.53.29:850][805]LogApp: UseVRFocus has changed to 0
+[2016.12.06-15.53.29:850][805]LogApp: HasVRFocus has changed to 0
+[2016.12.06-15.53.29:851][805]PIE: New page: PIE session: HW5 (Dec 6, 2016, 5:53:29 AM)
+[2016.12.06-15.53.29:851][805]LogPlayLevel: Creating play world package: /Game/Lessons/Physics/UEDPIE_0_HW5
+[2016.12.06-15.53.29:856][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004619s)
+[2016.12.06-15.53.29:856][805]LogAIModule: Creating AISystem for world HW5
+[2016.12.06-15.53.29:856][805]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2016.12.06-15.53.29:857][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Lessons/Physics/HW5.HW5 to /Game/Lessons/Physics/UEDPIE_0_HW5.HW5 (0.005530s)
+[2016.12.06-15.53.29:879][805]LogApp: UseVRFocus has changed to 1
+[2016.12.06-15.53.29:879][805]LogApp: HasVRFocus has changed to 1
+[2016.12.06-15.53.29:879][805]LogApp: UseVRFocus has changed to 0
+[2016.12.06-15.53.29:879][805]LogApp: HasVRFocus has changed to 0
+[2016.12.06-15.53.29:880][805]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-15.53.29:891][805]LogInit: FAudioDevice initialized.
+[2016.12.06-15.53.29:962][805]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.06-15.53.29:967][805]LogWorld: Bringing World /Game/Lessons/Physics/UEDPIE_0_HW5.HW5 up for play (max tick rate 0) at 2016.12.06-10.53.29
+[2016.12.06-15.53.29:968][805]LogWorld: Bringing up level for play took: 0.005104
+[2016.12.06-15.53.29:972][805]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.12.06-15.53.29:975][805]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.12.06-15.53.29:978][805]Cmd: stereo reset
+[2016.12.06-15.53.29:978][805]LeapPluginLog: InterfaceObject: SpellWarsCharacter_C_0
+[2016.12.06-15.53.29:978][805]PIE: Info Play in editor start time for /Game/Lessons/Physics/UEDPIE_0_HW5 0.395
+[2016.12.06-15.53.29:979][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Lessons/Physics/HW5.HW5:PersistentLevel' has LevelScriptBlueprint '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5' with GeneratedClass '/Game/Lessons/Physics/HW5.HW5_C' with ClassGeneratedBy '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5'
+[2016.12.06-15.53.31:725][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Lessons/Physics/HW5.HW5:PersistentLevel' has LevelScriptBlueprint '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5' with GeneratedClass '/Game/Lessons/Physics/HW5.HW5_C' with ClassGeneratedBy '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5'
+[2016.12.06-15.53.31:773][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Lessons/Physics/HW5.HW5:PersistentLevel' has LevelScriptBlueprint '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5' with GeneratedClass '/Game/Lessons/Physics/HW5.HW5_C' with ClassGeneratedBy '/Game/Lessons/Physics/HW5.HW5:PersistentLevel.HW5'
+[2016.12.06-15.53.34:315][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.53.35:247][268]LogSavePackage: Save=811.09ms
+[2016.12.06-15.53.35:247][268]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW535973B444E0E384924ADB0942E0704E5.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.53.35:260][268]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.53.35:266][268]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.53.35:915][344]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.55.33:178][  8]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.55.34:360][118]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.12.06-15.55.34:888][165]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2016.12.06-15.55.36:769][379]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.55.51:620][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.55.52:625][ 66]LogSavePackage: Save=876.16ms
+[2016.12.06-15.55.52:625][ 66]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW59EC6E633455EDC3301C03E85D1270ED3.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.55.52:640][ 66]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.55.52:646][ 66]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.55.53:338][147]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.56.27:120][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spacer_500x504)
+[2016.12.06-15.56.28:149][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spacer_500x504)
+[2016.12.06-15.56.28:517][988]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.12.06-15.56.30:205][179]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.56.32:338][370]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.56.35:870][695]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.56.40:669][193]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.56.46:168][770]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.56.46:197][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.56.47:550][770]LogSavePackage: Save=1228.59ms
+[2016.12.06-15.56.47:550][770]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5011E738E47E991866A645DB5A9F5A80D.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.56.47:564][770]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.56.47:570][770]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.56.48:253][850]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.57.14:050][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-15.57.15:651][ 49]LogSavePackage: Save=1418.90ms
+[2016.12.06-15.57.15:651][ 49]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5_Auto6C8BB1BA645195E8EE805A2B8D6B675D5.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto6.umap'
+[2016.12.06-15.57.15:658][ 49]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto6.umap
+[2016.12.06-15.57.15:662][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 1.645
+[2016.12.06-15.57.15:662][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.645
+[2016.12.06-15.57.19:562][311]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2016.12.06-15.57.22:470][607]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.28:831][313]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.29:484][389]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.12.06-15.57.30:656][520]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.33:345][770]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.37:640][210]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.40:546][477]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.41:704][614]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.12.06-15.57.44:177][871]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.57.44:208][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.57.45:629][871]LogSavePackage: Save=1199.05ms
+[2016.12.06-15.57.45:629][871]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5308196C7459DE9FFB37DECAC8B74901B.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.57.45:662][871]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.57.45:668][871]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.57.46:355][951]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-15.58.15:667][577]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2016.12.06-15.58.17:411][735]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-15.58.17:442][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-15.58.18:441][735]LogSavePackage: Save=874.04ms
+[2016.12.06-15.58.18:441][735]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW50497F91E4D9B2415140FC283D69490C9.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-15.58.18:455][735]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-15.58.18:461][735]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-15.58.19:167][818]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-16.04.35:335][233]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(202a2ll)
+[2016.12.06-16.04.39:419][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.12.06-16.04.41:012][430]LogSavePackage: Save=1362.87ms
+[2016.12.06-16.04.41:012][430]LogSavePackage: Moving 'H:/SpellWars/Saved/UEDPCHW5E7915A3E4651E02F3EDAB4BE0DD0EE33.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap'
+[2016.12.06-16.04.41:026][430]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/UEDPCHW5.umap
+[2016.12.06-16.04.41:032][430]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.12.06-16.04.41:731][512]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50110ll)
+[2016.12.06-16.07.16:278][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-16.07.17:318][108]LogSavePackage: Save=910.82ms
+[2016.12.06-16.07.17:318][108]LogSavePackage: Moving 'H:/SpellWars/Saved/HW5_Auto7F9BF3C174B7473743E54EF8C7EBEBDE4.tmp' to 'H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto7.umap'
+[2016.12.06-16.07.17:325][108]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Saved/Autosaves/Game/Lessons/Physics/HW5_Auto7.umap
+[2016.12.06-16.07.17:329][108]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Lessons/Physics/HW5' took 1.083
+[2016.12.06-16.07.17:329][108]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.083
+[2016.12.06-16.34.38:713][124]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(2503dcll)
+[2016.12.06-16.34.41:398][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lessons/Physics/HW5" FILE="H:/SpellWars/Content/Lessons/Physics/HW5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.06-16.34.42:916][124]LogSavePackage: Save=1267.11ms
+[2016.12.06-16.34.42:918][124]LogSavePackage: Moving 'H:/SpellWars/Saved/HW594D60D4D410129BEC6B045B971C12F53.tmp' to 'H:/SpellWars/Content/Lessons/Physics/HW5.umap'
+[2016.12.06-16.34.42:935][124]LogSavePackage:Display: Finished SavePackage H:/SpellWars/Content/Lessons/Physics/HW5.umap
+[2016.12.06-16.34.42:964][124]LogFileHelpers: Saving map 'HW5' took 1.711
+[2016.12.06-16.34.43:198][125]Cmd: QUIT_EDITOR
+[2016.12.06-16.34.43:274][125]LogExit: Preparing to exit.
+[2016.12.06-16.34.43:874][125]LogExit: Editor shut down
+[2016.12.06-16.34.43:875][125]LogExit: Transaction tracking system shut down
+[2016.12.06-16.34.44:102][125]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.06-16.34.44:102][125]LogExit: Object subsystem successfully closed.
+[2016.12.06-16.34.44:119][125]LogD3D11RHI: Shutdown
+[2016.12.06-16.34.44:119][125]LogD3D11RHI: CleanupD3DDevice
+[2016.12.06-16.34.44:186][125]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.06-16.34.44:201][125]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (218)
+[2016.12.06-16.34.44:201][125]LogModuleManager: Shutting down and abandoning module SequencerWidgets (217)
+[2016.12.06-16.34.44:201][125]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2016.12.06-16.34.44:201][125]LogModuleManager: Shutting down and abandoning module SynthBenchmark (215)
+[2016.12.06-16.34.44:201][125]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2016.12.06-16.34.44:202][125]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2016.12.06-16.34.44:202][125]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
+[2016.12.06-16.34.44:202][125]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
+[2016.12.06-16.34.44:202][125]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
+[2016.12.06-16.34.44:203][125]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
+[2016.12.06-16.34.44:203][125]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
+[2016.12.06-16.34.44:203][125]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
+[2016.12.06-16.34.47:203][125]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module BspMode (199)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
+[2016.12.06-16.34.47:204][125]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module SessionServices (189)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
+[2016.12.06-16.34.47:205][125]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
+[2016.12.06-16.34.47:206][125]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
+[2016.12.06-16.34.47:207][125]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
+[2016.12.06-16.34.47:207][125]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
+[2016.12.06-16.34.47:207][125]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
+[2016.12.06-16.34.47:207][125]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
+[2016.12.06-16.34.47:207][125]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
+[2016.12.06-16.34.47:387][125]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
+[2016.12.06-16.34.47:387][125]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
+[2016.12.06-16.34.47:387][125]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
+[2016.12.06-16.34.47:387][125]LogModuleManager: Shutting down and abandoning module MergeActors (177)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module SizeMap (176)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module TreeMap (175)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
+[2016.12.06-16.34.47:388][125]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module XmlParser (167)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module Blutility (166)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
+[2016.12.06-16.34.47:389][125]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
+[2016.12.06-16.34.47:390][125]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
+[2016.12.06-16.34.47:390][125]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
+[2016.12.06-16.34.47:390][125]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
+[2016.12.06-16.34.47:391][125]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
+[2016.12.06-16.34.47:391][125]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
+[2016.12.06-16.34.47:392][125]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
+[2016.12.06-16.34.47:392][125]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
+[2016.12.06-16.34.47:442][125]LogModuleManager: Shutting down and abandoning module AutomationController (155)
+[2016.12.06-16.34.47:442][125]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
+[2016.12.06-16.34.47:444][125]LogModuleManager: Shutting down and abandoning module Layers (153)
+[2016.12.06-16.34.47:445][125]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
+[2016.12.06-16.34.47:445][125]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
+[2016.12.06-16.34.47:445][125]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
+[2016.12.06-16.34.47:446][125]LogModuleManager: Shutting down and abandoning module Persona (149)
+[2016.12.06-16.34.47:447][125]LogModuleManager: Shutting down and abandoning module Kismet (148)
+[2016.12.06-16.34.47:447][125]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
+[2016.12.06-16.34.47:447][125]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
+[2016.12.06-16.34.47:448][125]LogModuleManager: Shutting down and abandoning module Toolbox (145)
+[2016.12.06-16.34.47:448][125]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
+[2016.12.06-16.34.47:449][125]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
+[2016.12.06-16.34.47:449][125]LogModuleManager: Shutting down and abandoning module OutputLog (142)
+[2016.12.06-16.34.47:449][125]LogModuleManager: Shutting down and abandoning module GammaUI (141)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module Documentation (140)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module Analytics (137)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module PortalServices (136)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module AIModule (131)
+[2016.12.06-16.34.47:450][125]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2016.12.06-16.34.47:578][125]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.12.06-16.34.47:580][125]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.12.06-16.34.47:581][125]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.12.06-16.34.47:581][125]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.12.06-16.34.47:581][125]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.12.06-16.34.47:582][125]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.12.06-16.34.47:583][125]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module Media (91)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module VREditor (85)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module Sequencer (79)
+[2016.12.06-16.34.47:683][125]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module MessageLog (77)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module AssetTools (76)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module UMG (74)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module Slate (72)
+[2016.12.06-16.34.47:684][125]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module Networking (66)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module Core (65)
+[2016.12.06-16.34.47:686][125]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
+[2016.12.06-16.34.48:687][125]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
+[2016.12.06-16.34.49:267][125]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2016.12.06-16.34.49:267][125]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2016.12.06-16.34.49:267][125]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2016.12.06-16.34.49:267][125]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2016.12.06-16.34.49:360][125]LogDerivedDataCache: Shutdown
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2016.12.06-16.34.49:360][125]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.12.06-16.34.49:361][125]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.12.06-16.34.53:871][125]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.12.06-16.34.53:871][125]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.12.06-16.34.53:872][125]LogHMD: Oculus shutdown.
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module LeapMotion (16)
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.06-16.34.53:872][125]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.06-16.34.53:875][125]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.06-16.34.53:877][125]LogExit: Exiting.
+[2016.12.06-16.34.53:892][125]Log file closed, 12/06/16 11:34:53
